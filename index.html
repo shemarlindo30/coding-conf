@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!--The doctype statement indicates the markup language of the document-->
+<html lang="en">
+<head> <!--The head element provides information and instructions to the browser about the document.-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Conf 2026 | Home</title> <!--The contents of the title element appear in the browser title bar.-->
+  <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;800&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER: logo and navigation ========== -->
+  <header class="site-header">
+    <a href="index.html" class="logo-link">
+      <img src="assets/images/logo-full.svg" alt="Coding Conf home" class="logo" />
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="login.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main>
+
+    <!-- Hero: event name, date, location and the Register Now button -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <h1 id="hero-heading">Coding Conf <span class="gradient-text">2026</span></h1>
+      <p class="hero-meta">
+        <time datetime="2026-10-26">October 26, 2026</time>
+        <span aria-hidden="true">/</span>
+        <span>Papine, Kgn</span>
+      </p>
+      <p class="hero-text">One day of talks, workshops and networking for developers of every level.</p>
+      <a href="login.html" class="btn">Register Now</a>
+    </section>
+
+    <!-- About: description of the event (the image floats left so the text wraps around it) -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About the conference</h2>
+      <img src="assets/images/logo-mark.svg" alt="" class="about-icon" />
+      <p>This conference is for future software engineering students and profesional recruiters to nature and network with each other. You will learn about different technologies and projects that are being developed and is developed. persons should attend so they can learn about these peojects and broaden there horizon.</p>
+      <p>The speaker will be Mr Lindo he is a experienced computer scientist that has worked at nasa and google and he will be speaking with us at utech Papine anut opportunity available for students and some words of encouragement.</p>
+    </section>
+
+    <!-- Schedule: what happens during the day -->
+    <section class="schedule" id="schedule" aria-labelledby="schedule-heading">
+      <h2 id="schedule-heading">Schedule</h2>
+      <ol class="schedule-list">
+        <li><span class="time">9:00 AM</span> Registration and breakfast</li>
+        <li><span class="time">10:00 AM</span> Opening keynote</li>
+        <li><span class="time">12:00 PM</span> Lunch</li>
+        <li><span class="time">1:00 PM</span> Hands-on workshops</li>
+        <li><span class="time">4:00 PM</span> Closing and networking</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Coding Conf. Papine, Kingston, Jamaica.</p>
+  </footer>
+
+  <!-- Decorative background patterns: empty alt so screen readers skip them -->
+  <img src="assets/images/pattern-squiggly-line-top.svg" alt="" class="decor decor-top" />
+  <img src="assets/images/pattern-squiggly-line-bottom-desktop.svg" alt="" class="decor decor-bottom" />
+  <img src="assets/images/pattern-circle.svg" alt="" class="decor decor-circle" />
+
+</body>
+</html>
